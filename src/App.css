@@ -1,10 +1,19 @@
 /* General Styles /////////////////// */
 :root {
   --primary-color: #1b9169;
+  --light-color: #cfcfcf;
 }
 
 html {
   font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 body {
   padding: 0;
@@ -20,11 +29,16 @@ body {
 main {
   flex: 1;
 }
+.primary-color {
+  color: var(--primary-color);
+  font-weight: 600;
+}
 .primary-btn {
   background: transparent;
-  color: white;
+  color: var(--light-color);
+  text-transform: capitalize;
   font-size: 1rem;
-  padding: 12px 24px;
+  padding: 15px 24px;
   border: 2px solid var(--primary-color);
   border-radius: 50px;
 }
@@ -39,6 +53,29 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.grid {
+  display: grid;
+  gap: 25px;
+}
+.cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.col-span-2 {
+  grid-column: span 2;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* About Section Styles /////////////////// */
+.exp-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #080808;
 }
 
 /* Header Styles /////////////////// */
@@ -56,30 +93,42 @@ header {
 /* Footer Styles /////////////////// */
 footer {
   padding: 10px;
-  background: #dddddd;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 /* Hero Styles /////////////////// */
 .hero-section {
-  background: linear-gradient(#000000b2, #000000b2), url("/public/bg.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  padding-top: 100px;
-  min-height: 70vh;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .greeting {
   color: var(--primary-color);
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .name {
+  max-width: 768px;
   margin: 0;
   margin-bottom: 20px;
-  font-size: 6rem;
-  font-weight: 200;
-  color: white;
+  font-size: 7rem;
+  font-weight: 900;
+  color: var(--light-color);
 }
 .tagline {
   color: var(--primary-color);
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 0;
+  margin-bottom: 25px;
+}
+
+/* About Section Styles /////////////////// */
+.about {
+  color: var(--light-color);
+}
+.quote {
+  font-size: 3rem;
+  font-weight: 400;
 }
