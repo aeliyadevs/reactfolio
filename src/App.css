@@ -1,0 +1,85 @@
+/* General Styles /////////////////// */
+:root {
+  --primary-color: #1b9169;
+}
+
+html {
+  font-size: 14px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main {
+  flex: 1;
+}
+.primary-btn {
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Styles /////////////////// */
+header {
+  background: #000000;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.logo {
+  width: 80px;
+}
+
+/* Footer Styles /////////////////// */
+footer {
+  padding: 10px;
+  background: #dddddd;
+}
+
+/* Hero Styles /////////////////// */
+.hero-section {
+  background: linear-gradient(#000000b2, #000000b2), url("/public/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  min-height: 70vh;
+}
+.greeting {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+.name {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 6rem;
+  font-weight: 200;
+  color: white;
+}
+.tagline {
+  color: var(--primary-color);
+  font-size: 3rem;
+  margin: 0;
+}
