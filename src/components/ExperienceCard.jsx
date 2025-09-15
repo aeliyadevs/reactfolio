@@ -2,8 +2,14 @@ export default function ExperienceCard() {
   return (
     <div className="exp-card">
       <div className="primary-color mb-10">2022 - Present</div>
-      <h3>Fullstack Developer</h3>
-      <p>Working happily on my own enterprise projects</p>
+      <h3 className="card-title">Fullstack Developer</h3>
+      <h4 className="card-subtitle">Company Name Pvt. Ltd.</h4>
+      <p className="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam
+        dignissimos commodi quod libero beatae, itaque eveniet perspiciatis nam
+        repellat dicta laboriosam fugit, obcaecati modi! Doloremque aliquid
+        ducimus perspiciatis, dolores minus repellat nostrum magnam dolorem!
+      </p>
     </div>
   );
 }
