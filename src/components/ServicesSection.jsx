@@ -1,6 +1,8 @@
-import ExperienceCard from "./ExperienceCard";
+import PrimaryButton from "./PrimaryButton";
+import SecondaryButton from "./SecondaryButton";
+import ServiceCard from "./ServiceCard";
 
-export default function AboutSection() {
+export default function ServicesSection() {
   return (
     <section
       className="about"
@@ -31,15 +33,13 @@ export default function AboutSection() {
               ducimus eos obcaecati dolorem facere suscipit et fuga. Cumque sunt
               sint minus sit facere explicabo.
             </p>
-            <a href="#">My services</a>
+            <SecondaryButton buttonText="My Services" />
           </div>
           <div className="col-span-2 grid cols-2">
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
-            <ExperienceCard />
-            {/* <ExperienceCard />
-          <ExperienceCard /> */}
+            <ServiceCard />
+            <ServiceCard />
+            <ServiceCard />
+            <ServiceCard />
           </div>
         </div>
       </div>

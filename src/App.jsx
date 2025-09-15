@@ -1,8 +1,10 @@
 import "./App.css";
 import AboutSection from "./components/AboutSection";
+import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Header />
       <main className="content">
         <Hero />
-        <AboutSection />
+        <ServicesSection />
+        {/* <AboutSection /> */}
+        <EducationSection />
       </main>
       <Footer />
     </>
