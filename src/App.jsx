@@ -5,6 +5,7 @@ import ExperiencesSection from "./components/ExperiencesSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesSection";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <ServicesSection />
         <ExperiencesSection />
+        <ProjectsSection />
         {/* <AboutSection /> */}
         {/* <EducationSection /> */}
       </main>
