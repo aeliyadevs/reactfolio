@@ -1,4 +1,3 @@
-import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import ServiceCard from "./ServiceCard";
 
@@ -7,7 +6,7 @@ export default function ServicesSection() {
     <section
       className="about"
       style={{
-        background: "url('/public/bg.jpg')",
+        background: "url('/bg.jpg')",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
       }}
@@ -33,7 +32,7 @@ export default function ServicesSection() {
               ducimus eos obcaecati dolorem facere suscipit et fuga. Cumque sunt
               sint minus sit facere explicabo.
             </p>
-            <SecondaryButton buttonText="My Services" />
+            <SecondaryButton className="text-light" buttonText="My Services" />
           </div>
           <div className="col-span-2 grid cols-2">
             <ServiceCard />

@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="hero-section"
       style={{
-        background: "url('/public/bg.jpg')",
+        background: "url('/bg.jpg')",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
       }}

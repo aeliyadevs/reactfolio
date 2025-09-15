@@ -1,7 +1,7 @@
 /* General Styles /////////////////// */
 :root {
   --primary-color: #069ecc;
-  --secondary-color: #1dcaff;
+  --secondary-color: #56d7ff;
   --light-color: #cfcfcf;
   --dark-color: #131313;
 }
@@ -34,9 +34,14 @@ main {
 img {
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
 .text-primary {
   color: var(--primary-color);
-  font-weight: 600;
+}
+.text-secondary {
+  color: var(--secondary-color);
 }
 .text-light {
   color: var(--light-color);
@@ -50,7 +55,7 @@ img {
   text-transform: capitalize;
   font-size: 1rem;
   padding: 15px 24px;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 50px;
   cursor: pointer;
 }
@@ -66,6 +71,7 @@ img {
   gap: 15px;
   cursor: pointer;
 }
+
 .heading {
   font-size: 5rem;
 }
@@ -75,6 +81,10 @@ img {
   margin: 0 auto;
   padding: 0 10px;
   box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  gap: 20px;
 }
 .flex-between {
   display: flex;
@@ -97,6 +107,9 @@ img {
 .mb-10 {
   margin-bottom: 10px;
 }
+.mt-large {
+  margin-top: 50px;
+}
 
 /* Card Styles /////////////////// */
 .card-title {
@@ -114,8 +127,8 @@ img {
   padding: 20px;
   border-radius: 10px;
   /* background-color: #080808; */
-  border-left: 12px solid var(--primary-color);
-  border-bottom: 2px solid var(--primary-color);
+  /* border-left: 12px solid var(--secondary-color); */
+  /* border-bottom: 2px solid var(--secondary-color); */
   /* box-shadow: 5px 5px 10px var(--primary-color); */
 }
 .service-card h3 {
@@ -206,7 +219,7 @@ footer {
   height: 90vh;
 }
 .greeting {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 1.4rem;
 }
 .name {
@@ -237,13 +250,73 @@ footer {
 /* About Section Styles /////////////////// */
 .experiences {
   color: var(--light-color);
+  padding-top: 100px;
 }
 .work-timeline {
   border-left: 2px solid var(--primary-color);
+  padding-bottom: 50px;
 }
 
 /* Projects Section Styles /////////////////// */
 .projects {
   background: var(--primary-color);
   padding: 75px 0;
+}
+
+/* Contact Section Styles /////////////////// */
+.contact {
+  background: var(--dark-color);
+  padding: 75px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px 0;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+}
+.cta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cta-item span {
+  color: var(--light-color);
+  /* text-transform: capitalize; */
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.cta-link {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: 400;
+  transition-duration: 0.3s;
+}
+.cta-link:hover {
+  color: var(--light-color);
+  scale: 1.05;
+}
+.cta-button {
+  background: var(--dark-color);
+  border-radius: 10px;
+  border: 2px solid var(--dark-color);
+  padding: 15px;
+  /* text-align: center; */
+  position: relative;
+  margin-bottom: 20px;
+}
+.cta-button span {
+  position: absolute;
+  /* background: var(--primary-color); */
+  top: -20px;
+  left: 5px;
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+.cta-button a {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 600;
 }

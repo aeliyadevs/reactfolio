@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 import EducationSection from "./components/EducationSection";
 import ExperiencesSection from "./components/ExperiencesSection";
 import Footer from "./components/Footer";
@@ -15,10 +16,12 @@ function App() {
       <main className="content">
         <Hero />
         <ServicesSection />
-        <ExperiencesSection />
         <ProjectsSection />
+        <ExperiencesSection />
+
         {/* <AboutSection /> */}
         {/* <EducationSection /> */}
+        <ContactSection />
       </main>
       <Footer />
     </>

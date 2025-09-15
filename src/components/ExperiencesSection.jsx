@@ -9,7 +9,7 @@ export default function ExperiencesSection() {
       }}
     >
       <div className="container">
-        <div className="intro">
+        <div>
           <h2 className="heading">Work Experiences</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
