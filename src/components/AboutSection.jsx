@@ -24,12 +24,9 @@ export default function AboutSection() {
           <div className="intro">
             <h2 className="quote">Design is thinking made visual.</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              inventore sunt quos fuga aperiam culpa rem, nesciunt, in, natus
-              illo voluptates! Repellat dolore qui, placeat, aspernatur at, cum
-              quasi aliquid distinctio nemo perspiciatis officia laboriosam
-              ducimus eos obcaecati dolorem facere suscipit et fuga. Cumque sunt
-              sint minus sit facere explicabo.
+              And I love to create beautiful and efficient websites for my
+              customers. I love going through the entire process with the
+              customer from concept, to design and then development and launch
             </p>
             <a href="#">My services</a>
           </div>

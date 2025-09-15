@@ -4,8 +4,8 @@ export default function ContactSection() {
       <div className="container grid cols-3">
         <div className="col-span-2">
           <h2 className="heading text-light">
-            If you have any project, <br />
-            <span className="text-primary">Let's Talk</span>
+            If you have any project,{" "}
+            <span className="text-primary">Let's Talk.</span>
           </h2>
           <div className="cta mt-large">
             <div className="cta-item">
@@ -22,11 +22,22 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="col-span-2 flex text-light">
-          <div>Facebook</div>
-          <div>Instagram</div>
-          <div>Tiktok</div>
-          <div>LinkedIn</div>
+        <div className="col-span-2 social-links text-light">
+          <a href="#" className="social-link">
+            Facebook
+          </a>
+          <a href="#" className="social-link">
+            Instagram
+          </a>
+          <a href="#" className="social-link">
+            WhatsApp
+          </a>
+          <a href="#" className="social-link">
+            TikTok
+          </a>
+          <a href="#" className="social-link">
+            Facebook
+          </a>
         </div>
       </div>
     </section>

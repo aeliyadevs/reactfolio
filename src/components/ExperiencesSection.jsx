@@ -2,12 +2,7 @@ import ExperienceCard from "./ExperienceCard";
 
 export default function ExperiencesSection() {
   return (
-    <section
-      className="experiences"
-      style={{
-        background: "#000000",
-      }}
-    >
+    <section className="experiences">
       <div className="container">
         <div>
           <h2 className="heading">Work Experiences</h2>
@@ -21,8 +16,6 @@ export default function ExperiencesSection() {
           <ExperienceCard />
           <ExperienceCard />
           <ExperienceCard />
-          {/* <ExperienceCard />
-          <ExperienceCard /> */}
         </div>
       </div>
     </section>

@@ -4,9 +4,9 @@ export default function ProjectsSection() {
   return (
     <section className="projects">
       <div className="container">
-        <div className="intro">
-          <h2 className="heading">Featured Projects</h2>
-          <p>
+        <div>
+          <h2 className="heading text-light">Featured Projects</h2>
+          <p className="text-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
             inventore sunt quos fuga aperiam.
           </p>

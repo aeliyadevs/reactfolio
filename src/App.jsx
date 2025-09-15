@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesSection";
+import SkillsSection from "./components/SkillsSection";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <ServicesSection />
         <ProjectsSection />
         <ExperiencesSection />
-
+        <SkillsSection />
         {/* <AboutSection /> */}
         {/* <EducationSection /> */}
         <ContactSection />

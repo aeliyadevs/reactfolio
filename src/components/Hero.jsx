@@ -19,12 +19,15 @@ export default function Hero() {
           justifyContent: "center",
         }}
       >
-        <div className="container">
-          <div>
+        <div className="container grid items-center cols-3">
+          <div className="col-span-2">
             <span className="greeting">Hi there! I am</span>
             <h1 className="name">Aeliya Tamang</h1>
             <p className="tagline">Fullstack Developer</p>
             <PrimaryButton buttonText="View my works" />
+          </div>
+          <div>
+            <img src="./images/character.png" alt="hero section image" />
           </div>
         </div>
       </div>
