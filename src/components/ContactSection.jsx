@@ -22,21 +22,26 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="col-span-2 social-links text-light">
+        <div className="social-links text-light">
           <a href="#" className="social-link">
-            Facebook
+            {/* Facebook */}
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
           <a href="#" className="social-link">
-            Instagram
+            {/* Instagram */}
+            <i class="fa-brands fa-instagram"></i>
           </a>
           <a href="#" className="social-link">
-            WhatsApp
+            {/* WhatsApp */}
+            <i class="fa-brands fa-whatsapp"></i>
           </a>
           <a href="#" className="social-link">
-            TikTok
+            {/* TikTok */}
+            <i class="fa-brands fa-tiktok"></i>
           </a>
           <a href="#" className="social-link">
-            Facebook
+            {/* YouTube */}
+            <i class="fa-brands fa-youtube"></i>
           </a>
         </div>
       </div>

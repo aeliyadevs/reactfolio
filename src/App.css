@@ -315,11 +315,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 75px 0;
+  padding: 75px 0 0 0;
 }
 .cta {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 .cta-item {
   display: flex;
@@ -343,14 +344,26 @@ footer {
   scale: 1.05;
 }
 .social-links {
-  height: 100%;
   display: flex;
+  align-items: end;
+  gap: 20px;
   font-size: 1.2rem;
-  gap: 30px;
+  margin-bottom: 50px;
 }
 .social-link {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
   color: var(--light-color);
+  background: var(--primary-color);
   transition-duration: 0.3s;
+}
+.social-link i {
+  font-size: 2rem;
 }
 .social-link:hover {
   color: var(--primary-color);
