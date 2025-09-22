@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className="container flex-between">
         <div style={{ display: "flex", gap: "15px", alignItems: "center" }}>
-          <img src="/logo.svg" alt="aeliyadevs-logo" className="logo" />
+          <img src="./logo.svg" alt="aeliyadevs-logo" className="logo" />
           <Link to="/">
             <div style={{ color: "var(--light-color)" }}>Aeliyadevs</div>
           </Link>

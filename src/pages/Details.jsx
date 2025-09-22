@@ -30,7 +30,7 @@ export default function Details() {
             </p>
             <div style={{ maxWidth: "768px" }}>
               <img
-                src="/images/projects/project-1.png"
+                src="./images/projects/project-1.png"
                 alt="project-1 thumbnail"
               />
             </div>

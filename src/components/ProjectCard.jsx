@@ -19,7 +19,7 @@ export default function ProjectCard() {
         <PrimaryButton buttonText="Live Preview" />
       </div>
       <div className="project-image">
-        <img src="/images/projects/project-1.png" alt="project-1 thumbnail" />
+        <img src="./images/projects/project-1.png" alt="project-1 thumbnail" />
       </div>
     </div>
   );
