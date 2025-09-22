@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import PrimaryButton from "./PrimaryButton";
 
 export default function ProjectCard() {
   return (
     <div className="project-card">
       <div className="project-info">
-        <h3 className="card-title text-light">Web Application</h3>
+        <Link to="/projects/1">
+          <h3 className="card-title text-light">Web Application</h3>
+        </Link>
         <h4 className="card-subtitle text-primary">
           Beauty Women Nepal Pvt. Ltd.
         </h4>

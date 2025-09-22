@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
@@ -9,23 +10,19 @@ import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesSection";
 import SkillsSection from "./components/SkillsSection";
+import Projects from "./pages/Projects";
+import Home from "./pages/Home";
+import Details from "./pages/Details";
 
 function App() {
   return (
-    <>
-      <Header />
-      <main className="content">
-        <Hero />
-        <ServicesSection />
-        <ProjectsSection />
-        <ExperiencesSection />
-        <SkillsSection />
-        {/* <AboutSection /> */}
-        {/* <EducationSection /> */}
-        <ContactSection />
-      </main>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<Details />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

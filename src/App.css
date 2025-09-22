@@ -51,6 +51,12 @@ a {
 .text-dark {
   color: var(--dark-color);
 }
+.bg-dark {
+  background: var(--dark-color);
+}
+.bg-black {
+  background: #080808;
+}
 .primary-btn {
   background: transparent;
   color: var(--light-color);
@@ -112,10 +118,20 @@ a {
 .mb-10 {
   margin-bottom: 10px;
 }
+.mt-small {
+  margin-top: 20px;
+}
 .mt-large {
   margin-top: 50px;
 }
-
+.my-small {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.py-large {
+  padding: 75px;
+  padding-bottom: 75px;
+}
 /* Card Styles /////////////////// */
 .pre-title {
   padding-left: 20px;

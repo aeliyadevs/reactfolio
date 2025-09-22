@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection() {
@@ -11,6 +12,11 @@ export default function ProjectsSection() {
             inventore sunt quos fuga aperiam.
           </p>
         </div>
+        <Link to="/projects" className="text-secondary">
+          <div className="my-small">
+            View All Projects <i className="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </Link>
         <div className="grid cols-2">
           <ProjectCard />
           <ProjectCard />
